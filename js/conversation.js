@@ -1,7 +1,7 @@
 
 const chat = {
     1: {
-        text: 'Hi! Welcome to bot.',
+        text: 'HI THERE!.',
         options: [
             {
                 text: '👋',
@@ -10,49 +10,49 @@ const chat = {
         ]
     },
     2: {
-        text: 'bot is a <em>really simple</em>, choice-driven chatbot framework made in <del>less than</del> just over 100 lines of vanilla JavaScript',
+        text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s!!',
         next: 3
     },
     3: {
         text: 'But you probably knew that anyway.',
         options: [
             {
-                text: "<strong>Yes</strong>, I did!",
+                text: "<strong>OH!</strong>, nice!",
                 next: 4
             },
             {
-                text: "<strong>Nope</strong>, this is news.",
+                text: "<strong>OK</strong>, I knew that",
                 next: 5
             },
             {
-                text: "<strong>okay.....</strong>, heheha",
+                text: "<strong>okay</strong>, I Don't Care",
                 next: 7
             }
         ]
     },
     4: {
-        text: 'Awesome. This chat is still in development. Happy coding!',
+        text: 'Awesome. This chat is still in development',
     },
     5: {
-        text: 'Aah, you\'re missing out!',
+        text: 'Aah, you\'re Smart!',
         next: 6
     },
     6: {
-        text: 'You should check it out on GitHub',
+        text: 'You should check this Out',
         options: [
             {
-                text: "Go to GitHub",
-                url: "https://github.com/bot/bot"
+                text: "okay",
+                url: "https://youtube.com/shorts/Obgnr9pc820?feature=share"
             }
         ]
     },
 
     7: {
-        text: 'check this',
+        text: 'oh oh check this',
         options: [
             {
-                text: "feet",
-                url: "www.google.com"
+                text: "Please click this!",
+                url: "https://youtu.be/dQw4w9WgXcQ"
             }
         ]
     }
